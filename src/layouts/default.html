@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{> head }}
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-about-us-bg-wrapper">
+            <div class="header-about-us-bg" style="background-image: url(./assets/images/header-about-us-bg.png);">
+            <style>
+                .header-about-us-bg:after {
+                    content: url(./assets/images/moon.png);
+                    position: absolute;
+                    left: 48.9%;
+                    top: 13.1%;
+                }
+            </style>
+                {{> header }}
+        
+                {{> about-us}}
+            </div>
+        </div>
+
+        <!-- {{> offers}}
+
+        {{> feedback}} -->
+
+        {{> basement}}
+
+    </div>
+    
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

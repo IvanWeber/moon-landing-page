@@ -1,0 +1,61 @@
+@import 'vars';
+@import 'vendor/reset';
+
+html {
+  font-size: $main-font-size;
+}
+
+body {
+  font-family: myriad-pro, sans-serif ,system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hidden-completely {
+  display: none !important;
+
+  width: 0;
+}
+
+.header-about-us-bg-wrapper {
+  background-color: #000001;
+}
+
+.header-about-us-bg {
+  // background-image: url(./assets/images/header-about-us-bg.png);
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+@media screen and (max-width: 1920px) {
+  .header-about-us-bg {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .header-about-us-bg:after {
+      content: ""!important;
+  }
+}
+
+/* Blocks */
+@import 'blocks/page';
+  @import 'blocks/header';
+  @import 'blocks/about-us';
+  @import 'blocks/offers';
+  @import 'blocks/feedback';
+  @import 'blocks/basement';
