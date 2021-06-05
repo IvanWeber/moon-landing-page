@@ -1,6 +1,5 @@
 @import 'vars';
 @import 'vendor/reset';
-
 // @font-face {
 //   font-family: 'Montserrat';
 //   font-style: normal;
@@ -36,7 +35,7 @@ a {
   color: inherit;
 }
 
-.hidden-completely {
+.hidden {
   display: none !important;
 
   width: 0;
@@ -52,6 +51,8 @@ a {
   margin-right: auto;
   margin-left: auto
 }
+
+
 
 @media screen and (max-width: 1920px) {
   .header-about-us-bg {
@@ -79,5 +80,6 @@ a {
   @import 'blocks/header';
   @import 'blocks/about-us';
   @import 'blocks/offers';
+  @import 'blocks/offers-slider';
   @import 'blocks/feedback';
   @import 'blocks/basement';
