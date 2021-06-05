@@ -14,6 +14,22 @@ $(document).ready(function() {
     arrows: true,
     dots: true,
     adaptiveHeight: true,
-    slidesToShow: 4
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    speed: 1500,
+    easing: 'ease',
+    infinite: true,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnFocus: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    draggable: false,
+    swipe: true,
+    touchThreshold: 5,
+    touchMove: false,
+    waitForAnimate: true,
+    // centerMode: true
   })
 })
