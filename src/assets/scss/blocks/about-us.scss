@@ -7,7 +7,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  h1 {
+  b {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 48px;
@@ -58,7 +58,7 @@
     padding-left: 25px;
     padding-right: 25px;
 
-    h1 {
+    b {
       margin-top: 50px;
     }
 
@@ -71,7 +71,7 @@
 @media screen and (max-width: 380px) {
   .about-us {
 
-    h1 {
+    b {
       margin-top: 50px;
       font-size: 38px;
     }
