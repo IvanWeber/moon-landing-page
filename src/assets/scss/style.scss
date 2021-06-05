@@ -1,6 +1,19 @@
 @import 'vars';
 @import 'vendor/reset';
 
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+//   src: local(''),
+//        url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//        url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+//        url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+//        url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+// }
+
 html {
   font-size: $main-font-size;
 }
@@ -47,6 +60,15 @@ a {
 }
 
 @media screen and (max-width: 1450px) {
+  .header-about-us-bg:after {
+    content: url(./assets/images/moon.png);
+    position: absolute;
+    left: 40% !important;
+    top: 125px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .header-about-us-bg:after {
       content: ""!important;
   }
