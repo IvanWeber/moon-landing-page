@@ -103,14 +103,20 @@
     font-size: 0;
     width: 20px;
     height: 30px;
+    padding: 24px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #F6F6FA!important;
   }
   /* Стрелка влево */
   .slick-arrow.slick-prev{
-    right: 25px;
+    top: -80px;
+    right: 73px;
   }
   /* Стрелка вправо */
   .slick-arrow.slick-next{
-    right: 0;
+    top: -80px;
+    right: 10px;
   }
   /* Стрелка не активная */
   .slick-arrow.slick-disabled{
@@ -121,6 +127,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 34px;
   }
   .slick-dots li{
     list-style: none;
@@ -134,7 +141,7 @@
   /* Элемент точки */
   .slick-dots li button{
     font-size: 0;
-    // width: 10px;
+    width: 12px;
     height: 12px;
     background-color: #E0E0E0;
     border-radius: 50%;
