@@ -52,6 +52,16 @@ a {
   margin-left: auto
 }
 
+.basement-bg-wrapper {
+  background-color: #1a0035;
+}
+
+.basement-bg {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto
+}
+
 
 
 @media screen and (max-width: 1920px) {
@@ -62,7 +72,7 @@ a {
 
 @media screen and (max-width: 1450px) {
   .header-about-us-bg:after {
-    content: url(./assets/images/moon.png);
+    // content: url(./assets/images/moon.png);
     position: absolute;
     left: 40% !important;
     top: 125px;
