@@ -1,4 +1,79 @@
 .feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 460px;
-  filter: brightness(50%);
+  max-width: 1250px;
+  padding-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
+  b {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 68px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    max-width: 540px;
+    text-align: center;
+    margin-top: 37px;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #BB6BD9;
+    background: transparent;
+    margin-right: 15px;
+
+    border: 1px solid #BB6BD9;
+    border-radius: 6px;
+    width: 256px;
+    padding: 24px;
+  }
+
+  &__submit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: $purple;
+    text-transform: uppercase;
+
+    border: 0;
+    border-radius: 6px;
+    width: 256px;
+    padding: 24px;
+  }
+
+  &__input::placeholder {
+    color: #BB6BD9;
+  }
+
+  &__input:focus {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  &__input:focus::placeholder {
+    color: #ffffff;
+  }
 }

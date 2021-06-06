@@ -13,7 +13,7 @@
     font-weight: bold;
     background-color: #fff;
 
-    padding: 14px 1px;
+    padding: 9px 1px;
     border: 0;
   }
 
@@ -23,7 +23,7 @@
   }
 
   .link_all-offers {
-    margin-top: 68px;
+    margin-top: 61px;
     margin-left: 49px;
   }
 
@@ -43,8 +43,8 @@
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 32px;
-  padding-bottom: 94px;
+  margin-top: 30px;
+  padding-bottom: 85px;
 
   .slider__item h4 {
     font-family: 'Montserrat', sans-serif;;
@@ -128,7 +128,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 34px;
+    margin-top: 20px;
   }
   .slick-dots li{
     list-style: none;
@@ -147,5 +147,19 @@
     background-color: #E0E0E0;
     border-radius: 50%;
     border: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .offers-slider {
+    .slick-arrow.slick-prev{
+      top: -141px;
+      right: 73px;
+    }
+    /* Стрелка вправо */
+    .slick-arrow.slick-next{
+      top: -141px;
+      right: 10px;
+    }
   }
 }
