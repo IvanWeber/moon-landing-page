@@ -58,6 +58,27 @@ $(document).ready(function() {
           slidesToScroll: 1,
         }
       }
-    ]
+    ],
+  })
+
+  // $('.slider').slick('')
+  var filtered = true;
+  $('.slider').slick('slickFilter', '.filter')
+  $('.link_filter').on('click', function(){
+    if (filtered === false) {
+      $('.slider').slick('slickFilter', '.filter')
+      $('.link_all-offers').removeClass('enabled')
+      $(this).addClass('enabled')
+      filtered = true
+    }
+  })
+  $('.link_all-offers').on('click', function(){
+    if (filtered === true) {
+      $('.slider').slick('slickUnfilter')
+      $('.link_filter').removeClass('enabled')
+      $(this).addClass('enabled')
+      filtered = false
+    }
+    return false
   })
 })
