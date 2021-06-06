@@ -20,7 +20,7 @@ $(document).ready(function() {
     easing: 'ease',
     infinite: true,
     initialSlide: 0,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 3000,
     pauseOnFocus: true,
     pauseOnHover: true,
