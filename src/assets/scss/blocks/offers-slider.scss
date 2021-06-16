@@ -113,11 +113,15 @@
   .slick-arrow.slick-prev{
     top: -80px;
     right: 73px;
+    background: url('../images/left-arrow.png') 13px 12px / 24px no-repeat;
+    background-color: #F6F6FA;
   }
   /* Стрелка вправо */
   .slick-arrow.slick-next{
     top: -80px;
     right: 10px;
+    background: url('../images/right-arrow.png') 13px 12px / 24px no-repeat;
+    background-color: #F6F6FA;
   }
   /* Стрелка не активная */
   .slick-arrow.slick-disabled{

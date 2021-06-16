@@ -46,10 +46,16 @@ a {
 }
 
 .header-about-us-bg {
-  // background-image: url(./assets/images/header-about-us-bg.png);
   max-width: 1920px;
   margin-right: auto;
   margin-left: auto
+}
+
+.header-about-us-bg:after {
+  content: url(../images/moon.png);
+  position: absolute;
+  left: 49.4%;
+  top: 128px;
 }
 
 .basement-bg-wrapper {

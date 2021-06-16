@@ -7,6 +7,17 @@
   margin-left: auto;
   margin-right: auto;
 
+  &__button {
+    position: relative;
+  }
+
+  &__button:after {
+    content: url(../images/about-us-play.png);
+    position: absolute;    
+    top: 0px;
+    right: -62px;
+  }
+
   b {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
